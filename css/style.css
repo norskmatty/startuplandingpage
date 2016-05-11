@@ -1,34 +1,27 @@
-.header-attributes {
-	background-color: white;
-	height: 75px;
-	width: 100%;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-.image {
-	margin-left: 20%;
-	margin-top: 15px;
-	display: inline-block;
+.top-navigation {
+	background-color: #FFFFFF;
 }
 
-.menu-list {
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.top-navigation .links {
+	float: right;
+	padding: 0px 15px;
 	list-style-type: none;
+}
+
+.top-navigation .links li {
 	display: inline-block;
-	margin-left: 15%;
-}
-
-.menu-item {
-	display: inline-block;
-	color: #AAAAAA;
-	padding: 0 10px 0 10px;
-}
-
-.meet-karma-item {
-	color: #555555;
-	padding: 0 50px 0 50px;
-}
-
-
-
-li:hover {
-	color: #000000;
 }
