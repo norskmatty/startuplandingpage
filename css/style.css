@@ -1,26 +1,34 @@
 .header-attributes {
-	background-color: grey;
+	background-color: white;
 	height: 75px;
 	width: 100%;
 }
 
 .image {
 	margin-left: 20%;
-	padding-top: 15px;
-	display: inline-block;
-}
-
-.first-menu-item {
-	margin-left: 40%;
-}
-
-.menu-item {
+	margin-top: 15px;
 	display: inline-block;
 }
 
 .menu-list {
 	list-style-type: none;
 	display: inline-block;
-
+	margin-left: 15%;
 }
 
+.menu-item {
+	display: inline-block;
+	color: #AAAAAA;
+	padding: 0 10px 0 10px;
+}
+
+.meet-karma-item {
+	color: #555555;
+	padding: 0 50px 0 50px;
+}
+
+
+
+li:hover {
+	color: #000000;
+}
