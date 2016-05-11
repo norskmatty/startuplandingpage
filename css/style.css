@@ -1,0 +1,20 @@
+.header-attributes {
+	background-color: black;
+	height: 75px;
+	width: 100%;
+}
+
+.image {
+	margin-left: 20%;
+	padding-top: 15px;
+	display: inline-block;
+}
+
+.menu {
+	margin-left: 65%;
+	padding-top: 20px;
+}
+
+.menu-item {
+	
+}
