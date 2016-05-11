@@ -1,5 +1,5 @@
 .header-attributes {
-	background-color: black;
+	background-color: grey;
 	height: 75px;
 	width: 100%;
 }
@@ -10,11 +10,17 @@
 	display: inline-block;
 }
 
-.menu {
-	margin-left: 65%;
-	padding-top: 20px;
+.first-menu-item {
+	margin-left: 40%;
 }
 
 .menu-item {
-	
+	display: inline-block;
 }
+
+.menu-list {
+	list-style-type: none;
+	display: inline-block;
+
+}
+
