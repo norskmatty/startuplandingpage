@@ -171,26 +171,48 @@ button {
 	margin-top: 100px;
 }
 
-.end h4 {
+.social h4 {
 	text-align: center;
 	font-size: 14px;
 	letter-spacing: 0.04em;
 }
 
-.end ul {
+.social ul {
 	text-align: center;
 	margin-left: -30px;
 }
 
-.end li {
+.social li {
 	display: inline-block;
 	margin: 0 5px;
+
 }
 
-.end h5 {
+.social h5 {
 	text-align: center;
 	color: #555555;
 	font-size: 13px;
 	letter-spacing: 0.03em;
 	margin-bottom: 100px;
+}
+
+.fa {
+	border: solid 0.5px gray;
+	border-radius: 50%;
+	padding: 8px;
+	font-size: 18px;
+	width: 35px;
+	height: 35px;
+}
+
+.fa-twitter {
+	color: #55acee;
+}
+
+.fa-facebook {
+	color: #4c66a4;
+}
+
+.fa-instagram {
+	color: #3f729b;
 }
